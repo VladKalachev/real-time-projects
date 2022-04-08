@@ -15,6 +15,7 @@ function LongPulling() {
   useEffect(() => {
     subscribe();
   }, [])
+  
 
   const subscribe = async () => {
     try {
