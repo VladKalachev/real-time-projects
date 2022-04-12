@@ -15,6 +15,7 @@ export default class Store {
   }
 }
 
+
 export const StoreExample = new Store();
 
 export const StoreContext = createContext(new Store);
