@@ -5,7 +5,6 @@ import { StoreContext, StoreExample } from '../../store/base.store'
 function Button() {
   const { message } = useContext(StoreContext);
 
-  console.log(1111, message);
   return (
     <div>Button</div>
   )
