@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@ant-design/pro-table": "^2.71.5",
+    "antd": "^4.19.5",
     "axios": "^0.26.1",
     "mobx": "^6.5.0",
     "mobx-react-lite": "^3.3.0",
@@ -15,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:config": "react-scripts test -- --config=jest.config.js",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
