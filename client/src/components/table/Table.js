@@ -119,7 +119,7 @@ function TablePro() {
   const actionRef = useRef();
   return (
     <Button key="button" icon={<PlusOutlined />} type="primary">
-    新建
+      新建
     </Button>
   )
   // return (
