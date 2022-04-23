@@ -16,7 +16,6 @@ function LongPulling() {
     subscribe();
   }, [])
 
-  
   const subscribe = async () => {
     try {
       const {data} = await axios.get('http://localhost:4000/get-messages')
