@@ -1,10 +1,10 @@
 import './App.css';
-import EventSourcing from './EventSourcing';
+import WebSock from './WebSock.jsx';
 
 function App() {
   return (
     <div className="App">
-      <EventSourcing />
+      <WebSock />
     </div>
   );
 }
